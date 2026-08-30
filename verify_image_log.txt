@@ -1,0 +1,9 @@
+1. Creating Excel file with image...
+   PASS: Excel file created.
+2. Loading Excel file using generator.load_excel...
+   Loaded input_images count: 1
+   PASS: Image loaded successfully. Count: 1
+   PASS: Image data is bytes.
+3. Verifying with standard openpyxl load (no read_only)...
+   Standard load found 1 images in sheet.
+   PASS: Standard load can see images.
